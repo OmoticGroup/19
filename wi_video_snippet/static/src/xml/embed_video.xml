@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <div t-name="wi_video_snippet.embed_video_dialog">
+        <div class="row video_content">
+            <div class="col">
+                <div class="mb-3">
+                    <label class="col-form-label" for="video_url">
+                        <b>Video Source code </b>
+                    </label>
+                    <input class="form-control" id="video_url" placeholder="paste your URL or embed code here"
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <t t-name="wi_video_snippet.wi_video_embed_options">
+        <BuilderRow label.translate="Code">
+            <BuilderButton action="'EmbedVideoAction'" preview="false"
+                           type="'success'"
+                           className="'o_we_edit_code o_we_no_toggle'"
+                           title.translate="Modify Video Link">
+                Modify
+            </BuilderButton>
+        </BuilderRow>
+    </t>
+
+</templates>
