@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2025 Codusic Technology
+    All Rights Reserved.
+
+    This module is developed and maintained by Codusic Technology.
+    You may not use, distribute, or modify this code without permission.
+
+    Author: Codusic Technology
+-->
+<odoo>
+    <template id="hide_powered_by_odoo_message" inherit_id="web.brand_promotion">
+        <xpath expr="//div[@class='o_brand_promotion']" position="replace">
+            <div>
+            </div>
+        </xpath>
+    </template>
+</odoo>
